@@ -1,0 +1,124 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos Gerais */
+.cabecalho .logo{
+    color:#D6000D;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.navigation .navigation-list li{
+    list-style: none;
+}
+
+.navigation .navigation-list .navigation-list-link{
+    text-decoration: none;
+    color: #000;
+}
+.navigation .navigation-list .navigation-list-login{
+    border: #D6000D;
+    background-color: #D6000D;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px 35px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.presentation p{
+    font-weight: bold;
+    text-align: center;
+}
+
+.presentation .presentation-item{
+    font-size: 30px;
+    color: #D6000D;
+    font-weight: bold;
+}
+
+.presentation button{
+    border: #D6000D;
+    background-color: #D6000D;
+    color: #FFF;
+    font-size: 20px;
+    padding: 15px 45px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.descriptions i{
+    color: #D6000D;
+}
+
+.formulario p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.formulario input{
+    border: 1px solid #DCDCDC;
+    background-color: #DCDCDC;
+    padding: 5px 10px;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.formulario button{
+    border: 1px solid #D6000D;
+    background-color: #D6000D;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+.card{
+    padding: 15px;
+    background-color: #DCDCDC;
+    margin: 15px 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card i{
+    font-size: 45px;
+    color: #D6000D;
+}
+
+.card .name{
+    font-size: 18px;
+}
+
+.card .local{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.rodape{
+    padding: 45px 30px;
+    background-color: #000;
+    color: #FFF;
+}
+
+.rodape .logo h2{
+    font-size: 40px;
+    font-style: italic;
+}
+.rodape li{
+    list-style: none;
+}
+.rodape i{
+    color: #D6000D;
+    font-size: 25px;
+}
+.contact .email{
+    text-decoration: underline;
+}
