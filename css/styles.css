@@ -30,6 +30,11 @@
     padding: 10px 35px;
     margin: 10px 0;
     border-radius: 10px;
+    cursor: pointer;
+}
+.navigation .navigation-list .navigation-list-login:hover{
+    width: 122px;
+    height: 46px;
 }
 
 .presentation p{
@@ -51,6 +56,12 @@
     padding: 15px 45px;
     margin: 20px 0;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.presentation button:hover{
+    width: 270px;
+    height: 58px;
 }
 
 .descriptions i{
@@ -78,6 +89,12 @@
     font-weight: bold;
     padding: 5px 25px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario button:hover{
+    width: 222px;
+    height: 38px;
 }
 
 .card{
